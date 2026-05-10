@@ -242,31 +242,24 @@ h1 {
 }
 
 .feature-icon {
-  width: 54px;
-  height: 54px;
+  width: 44px;
+  height: 44px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 14px;
-  border: 1px solid rgba(22, 119, 255, 0.18);
   color: var(--ink);
-  background: linear-gradient(145deg, #e6f3ff 0%, #ffffff 100%);
-  box-shadow: 0 14px 28px rgba(22, 119, 255, 0.14);
-  font-size: 28px;
+  background: transparent;
+  font-size: 34px;
   line-height: 1;
   margin-bottom: 16px;
 }
 
 .feature:nth-child(2n) .feature-icon {
-  border-color: rgba(22, 160, 100, 0.18);
-  background: linear-gradient(145deg, #e7f8ef 0%, #ffffff 100%);
-  box-shadow: 0 14px 28px rgba(22, 160, 100, 0.14);
+  background: transparent;
 }
 
 .feature:nth-child(3n) .feature-icon {
-  border-color: rgba(239, 107, 95, 0.18);
-  background: linear-gradient(145deg, #fff0ee 0%, #ffffff 100%);
-  box-shadow: 0 14px 28px rgba(239, 107, 95, 0.14);
+  background: transparent;
 }
 
 .feature h3 {
